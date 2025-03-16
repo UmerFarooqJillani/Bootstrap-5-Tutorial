@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customization on Bootstrap</title>
+    <link rel="stylesheet" href="./dist/css/bootstrap-custom.css">
+</head>
+
+<body>
+
+
+    <!-- 
+                        Using Sass
+    -> Initialized the node package  manager     ("npm init -y")
+    -> Install Bootstrap and sass (scss)       ("npm install bootstrap sass")
+    -> Setup Custom Bootstrap Compilation
+       1- mkdir scss
+       2- Create the file in custom-bootstrap.scss in SCSS folder (Folder are optional)
+          (echo '@import "../node_modules/bootstrap/scss/bootstrap.scss";' > scss/custom-bootstrap.scss)
+          see the custom file for more customization details 
+    -> Customize Bootstrap
+        see the custom file for more customization details 
+    -> Compile Bootstrap with Custom Styles
+        - Create a 'build' script in 'package.json'
+            [ "scripts": {
+                "build": "sass scss/custom-bootstrap.scss dist/css/bootstrap-custom.css --no-source-map",
+                "watch": "sass --watch scss/custom-bootstrap.scss:dist/css/bootstrap-custom.css"
+            } ]
+        - Now, compile your customized Bootstrap:
+            (npm run build)
+        - For real-time changes, run:
+            (npm run watch)
+        - for exit press:
+            (ctrl+c)
+    -> Use Customized Bootstrap in Your Project
+        - Include the custom-built Bootstrap in your HTML:
+        { <link rel="stylesheet" href="dist/css/bootstrap-custom.css"> }
+-->
+
+    <p class="container bg-light-pink mt-3 p-5">Hey, I'm a Umer Farooq Jillani</p>
+</body>
+
+</html>

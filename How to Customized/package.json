@@ -1,0 +1,17 @@
+{
+  "name": "how-to-customized",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/custom-bootstrap.scss dist/css/bootstrap-custom.css --no-source-map",
+    "watch": "sass --watch scss/custom-bootstrap.scss:dist/css/bootstrap-custom.css"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.85.1"
+  }
+}
