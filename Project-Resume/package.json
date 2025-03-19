@@ -1,0 +1,17 @@
+{
+  "name": "project-resume",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass custom.scss dist/css/bootstrap-custom.css --no-source-map",
+    "watch": "sass --watch custom.scss:dist/css/bootstrap-custom.css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.85.1"
+  }
+}

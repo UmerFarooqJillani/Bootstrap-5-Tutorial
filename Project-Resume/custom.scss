@@ -1,0 +1,12 @@
+// Custom Variable
+$secondary: #e9ecef;
+// Import Bootstrap functions
+@import "node_modules/bootstrap/scss/functions";
+
+// Customize breakpoints
+$grid-breakpoints: (
+  lsm: 600px // Change md breakpoint
+);
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
