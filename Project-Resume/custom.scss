@@ -1,4 +1,9 @@
-$spacer: 1rem;
+// Import Bootstrap functions first
+@import "./node_modules/bootstrap/scss/functions"; // Import functions
+
+// Define custom spacer size
+$spacer: 1rem; //16px
+// Customize spacers
 $spacers: (
   0: 0,
   1: $spacer * .25,
@@ -6,11 +11,11 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
-  6: $spacer * 6,
+  6: $spacer * 6,     // 6rem
 );
 
-@import "./node_modules/bootstrap/scss/functions"; // Import functions
 $primary: red; // Customize variables
+
 @import "./node_modules/bootstrap/scss/variables"; // Import variables
 
 $custom-grid-breakpoints: (
