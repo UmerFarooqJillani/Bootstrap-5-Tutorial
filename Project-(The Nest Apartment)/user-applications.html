@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Applications - The Next Apartment</title>
+    <link rel="shortcut icon" href="/src/Favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -12,7 +13,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <i class="fas fa-building me-2"></i>
+                <!-- <i class="fas fa-building me-2"></i> -->
+                <img src="src/images/nestapt.spng_.png" alt="" width="55" height="55">
                 The Next Apartment
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -43,18 +45,20 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
-                            <img src="/placeholder.svg?height=32&width=32" class="rounded-circle me-2" alt="User" width="32" height="32">
+                            <img src="/src/images/John.png" class="rounded-circle me-2" alt="User" width="32" height="32">
                             <span>John Doe</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="user-dashboard.html"><i class="fas fa-tachometer-alt me-2"></i>Dashboard</a></li>
-                            <li><a class="dropdown-item" href="user-profile.html"><i class="fas fa-user me-2"></i>My Profile</a></li>
+                            <!-- user-profile.html -->
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-user me-2"></i>My Profile</a></li>
                             <li><a class="dropdown-item" href="user-favorites.html"><i class="fas fa-heart me-2"></i>Favorites</a></li>
                             <li><a class="dropdown-item active" href="user-applications.html"><i class="fas fa-file-alt me-2"></i>My Applications</a></li>
                             <li><a class="dropdown-item" href="user-complaints.html"><i class="fas fa-exclamation-circle me-2"></i>Complaints</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="user-settings.html"><i class="fas fa-cog me-2"></i>Settings</a></li>
-                            <li><a class="dropdown-item" href="index.html"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
+                            <!-- user-settings.html -->
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-cog me-2"></i>Settings</a></li>
+                            <li><a class="dropdown-item" href="signin.html"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -70,7 +74,8 @@
                 <p class="text-muted">Track the status of your apartment applications and contracts.</p>
             </div>
             <div>
-                <a href="user-new-application.html" class="btn btn-primary">
+                <!-- user-new-application.html -->
+                <a href="signin.html" class="btn btn-primary">
                     <i class="fas fa-plus me-2"></i>New Application
                 </a>
             </div>
@@ -117,7 +122,7 @@
                                         <td>APP-2023-001</td>
                                         <td>
                                             <div class="d-flex align-items-center">
-                                                <img src="/placeholder.svg?height=40&width=40" class="rounded me-2" alt="Apartment">
+                                                <img src="/src/images/Gallery-Portrait-9-150x150.jpg" class="rounded me-2" alt="Apartment">
                                                 <div>
                                                     <h6 class="mb-0">Modern Studio Apartment</h6>
                                                     <small class="text-muted">Floor 2, Project ID: 1</small>
@@ -137,7 +142,7 @@
                                         <td>APP-2023-002</td>
                                         <td>
                                             <div class="d-flex align-items-center">
-                                                <img src="/placeholder.svg?height=40&width=40" class="rounded me-2" alt="Apartment">
+                                                <img src="/src/images/Gallery-Portrait-6-150x150.jpg" class="rounded me-2" alt="Apartment">
                                                 <div>
                                                     <h6 class="mb-0">Luxury Downtown Loft</h6>
                                                     <small class="text-muted">Floor 5, Project ID: 1</small>
@@ -245,7 +250,7 @@
                                         <td>CON-1000</td>
                                         <td>
                                             <div class="d-flex align-items-center">
-                                                <img src="/placeholder.svg?height=40&width=40" class="rounded me-2" alt="Apartment">
+                                                <img src="/src/images/Gallery-Portrait-4-150x150.jpg" class="rounded me-2" alt="Apartment">
                                                 <div>
                                                     <h6 class="mb-0">Spacious Family Apartment</h6>
                                                     <small class="text-muted">Floor 3, Project ID: 2</small>
@@ -259,7 +264,8 @@
                                         <td>
                                             <div class="btn-group btn-group-sm">
                                                 <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#contractDetailsModal">View Details</a>
-                                                <a href="user-payments.html" class="btn btn-outline-success">Payments</a>
+                                                <!-- user-payments.html -->
+                                                <a href="#" class="btn btn-outline-success">Payments</a>
                                             </div>
                                         </td>
                                     </tr>
@@ -365,7 +371,8 @@
                                     </div>
                                 </div>
                                 <div class="d-grid mt-3">
-                                    <a href="user-payments.html" class="btn btn-primary">View All Payments</a>
+                                    <!-- user-payments.html -->
+                                    <a href="#" class="btn btn-primary">View All Payments</a>
                                 </div>
                             </div>
                         </div>
@@ -393,7 +400,7 @@
                                         <td>APP-2022-001</td>
                                         <td>
                                             <div class="d-flex align-items-center">
-                                                <img src="/placeholder.svg?height=40&width=40" class="rounded me-2" alt="Apartment">
+                                                <img src="/src/images/Gallery-Portrait-3-150x150.jpg" class="rounded me-2" alt="Apartment">
                                                 <div>
                                                     <h6 class="mb-0">Spacious Family Apartment</h6>
                                                     <small class="text-muted">Floor 3, Project ID: 2</small>
@@ -410,7 +417,7 @@
                                         <td>APP-2022-002</td>
                                         <td>
                                             <div class="d-flex align-items-center">
-                                                <img src="/placeholder.svg?height=40&width=40" class="rounded me-2" alt="Apartment">
+                                                <img src="/src/images/Gallery-Landscape-18-150x150.jpg" class="rounded me-2" alt="Apartment">
                                                 <div>
                                                     <h6 class="mb-0">Modern Studio Apartment</h6>
                                                     <small class="text-muted">Floor 2, Project ID: 1</small>
@@ -427,7 +434,7 @@
                                         <td>APP-2022-003</td>
                                         <td>
                                             <div class="d-flex align-items-center">
-                                                <img src="/placeholder.svg?height=40&width=40" class="rounded me-2" alt="Apartment">
+                                                <img src="/src/images/Gallery-Portrait-9-150x150.jpg" class="rounded me-2" alt="Apartment">
                                                 <div>
                                                     <h6 class="mb-0">Luxury Downtown Loft</h6>
                                                     <small class="text-muted">Floor 5, Project ID: 1</small>
@@ -730,7 +737,7 @@
                 <div class="col-md-4">
                     <h5>Contact Information</h5>
                     <ul class="list-unstyled small">
-                        <li><i class="fas fa-map-marker-alt me-2"></i> 123 Apartment Ave, City, State 12345</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> 123 Apartment Ave, Lahore, Pakistan</li>
                         <li><i class="fas fa-phone me-2"></i> (123) 456-7890</li>
                         <li><i class="fas fa-envelope me-2"></i> info@thenextapartment.com</li>
                     </ul>
